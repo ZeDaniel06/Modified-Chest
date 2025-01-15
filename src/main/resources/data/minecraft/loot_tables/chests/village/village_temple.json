@@ -43,6 +43,32 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:writable_book",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lantern",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 4.0,
                 "min": 1.0
               },
@@ -95,7 +121,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:emerald",
+          "weight": 5
         }
       ],
       "rolls": {

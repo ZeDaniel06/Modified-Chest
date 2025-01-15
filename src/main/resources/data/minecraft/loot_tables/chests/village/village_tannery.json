@@ -21,6 +21,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:cauldron",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:leather_chestplate",
           "weight": 2
         },
@@ -57,7 +62,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "name": "minecraft:saddle",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -72,7 +78,8 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:emerald",
+          "weight": 2
         }
       ],
       "rolls": {

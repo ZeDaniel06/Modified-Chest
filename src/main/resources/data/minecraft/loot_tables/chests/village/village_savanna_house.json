@@ -68,14 +68,14 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 5.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 2
+          "weight": 5
         },
         {
           "type": "minecraft:item",
@@ -95,7 +95,13 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:saddle"
+          "name": "minecraft:saddle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 3
         },
         {
           "type": "minecraft:item",

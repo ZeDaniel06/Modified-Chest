@@ -26,6 +26,16 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:large_fern",
           "weight": 2
         },
@@ -111,7 +121,7 @@
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",
