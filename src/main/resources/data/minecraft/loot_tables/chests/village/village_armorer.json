@@ -27,6 +27,22 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
                 "max": 4.0,
                 "min": 1.0
               },
@@ -38,11 +54,39 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_helmet"
+          "name": "minecraft:iron_helmet",
+          "weight": 1
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:iron_chestplate",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald",
+          "weight": 1
         }
       ],
       "rolls": {

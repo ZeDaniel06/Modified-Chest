@@ -86,19 +86,56 @@
         },
         {
           "type": "minecraft:item",
+          "name": "minecraft:saddle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
           "functions": [
             {
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 5.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:emerald",
-          "weight": 2
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds",
+          "weight": 5
         },
         {
           "type": "minecraft:item",

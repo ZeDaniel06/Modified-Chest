@@ -18,7 +18,7 @@
             }
           ],
           "name": "minecraft:map",
-          "weight": 10
+          "weight": 15
         },
         {
           "type": "minecraft:item",
@@ -39,7 +39,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:compass",
-          "weight": 5
+          "weight": 15
         },
         {
           "type": "minecraft:item",
